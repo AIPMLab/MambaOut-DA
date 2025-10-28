@@ -35,6 +35,24 @@ Here we provide a detailed instruction about how to run the codes. Here we use O
 ```
 This can be done in the terminal. Since our code requires parsers, we set all default values, so there is no need to add values in python Main-tau.py.
 
+2) Datasets.
+
+The structures of our dataset are as follows:
+
+```sh
+./data/office/
+    amazon/
+      bicycle/
+        frame_0001.jpg
+            ...
+      clock/
+      bottle/
+      .../
+    webcam/
+    dslr/
+```
+Note that each domain needs one txt file, we prorivde an example in Data/office folder.
+
 
 <p align="center">
 <img src="image.png" alt="intro" width="70%"/>
