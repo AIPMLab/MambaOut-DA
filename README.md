@@ -144,7 +144,11 @@ Note that each domain needs one txt file, we prorivde an example in Data/office 
 | **Ours (MambaOut)** | **1.7M** |
 | **Ours$^\dag$ (MambaOut)** | **1.86M** |
 
+<p align="center">
+<img src="tSNE.png" alt="intro" width="90%"/>
+</p>
 
+**Figure 2**. tSNE visualizations on Office31 (A$\rightarrow$W, W$\rightarrow$A) and OfficeHome (Ar$\rightarrow$Pr, Pr$\rightarrow$Ar) for MambaOut-DA (\textbf{first row}) and EUDA (\textbf{second row}).
 
 
 **We thank the authors of https://github.com/A-Abedi/EUDA for their codes. Also, you need to access to their codebase to obtain dinov2 @ e1277af to resimulate their method.**
