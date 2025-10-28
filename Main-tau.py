@@ -144,10 +144,8 @@ def main(dataset_path, train_list, test_list, lambda_1, **kwargs):
 
         for param in mamba.parameters():
             param.requires_grad = False
-        for param in mamba.stem.parameters():
-            param.requires_grad = True
-        for param in mamba.head.parameters():
-            param.requires_grad = True
+        # for param in mamba.head.parameters():
+        #     param.requires_grad = True
         # print(mamba)
         visual_projector = torch.nn.Linear(3072, 256).to('cuda')
         # visual_projector = torch.nn.Sequential(torch.nn.Linear(3072, 256), # 3072
@@ -193,3 +191,4 @@ if __name__ == "__main__":
         # np.savetxt('./acc_all_prostate_C1toC4(lambda_3='+str(lam)+').csv', acc, fmt='%f', delimiter=',')
         # np.savetxt('./acc_all_visda17(lr=0.03).csv', acc, delimiter=',')
         print(acc, np.mean(acc))
+
