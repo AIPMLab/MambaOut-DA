@@ -131,5 +131,20 @@ Note that each domain needs one txt file, we prorivde an example in Data/office 
 | **MambaOut-based Method** | | | | | | | |
 | **Ours** | 98.7 | *89.1* | 86.1 | 50.7 | 98.4 | **98.8** | 91.3 | 61.3 | 91.7 | 96.2 | 94.5 | *59.9* | 84.7 |
 
+**Table 4**: The number of learnable parameters for various DA models. *Ours$^\dag$ indicates fine tuning the parameters in both the LayerNorm (MambaOut) and the bottleneck module.*
+
+| Model | \# Learnable Parameters |
+| :--- | :--- |
+| DANN (ResNet50) | 25.7M |
+| TVT (ViT) | 85.8M |
+| PMTrans (VIT) | 87.8M |
+| CACM (Deit-base) | 86M |
+| CDTrans (ViT) | 85.8M |
+| EUDA (DinoV2) | 4.4M |
+| **Ours (MambaOut)** | **1.7M** |
+| **Ours$^\dag$ (MambaOut)** | **1.86M** |
+
+
+
 
 **We thank the authors of https://github.com/A-Abedi/EUDA for their codes. Also, you need to access to their codebase to obtain dinov2 @ e1277af to resimulate their method.**
