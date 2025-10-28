@@ -130,3 +130,6 @@ Note that each domain needs one txt file, we prorivde an example in Data/office 
 | EUDA | **99.5** | 78.1 | **90.6** | 58.1 | *98.5* | 98.5 | **97.8** | 63.4 | 79.8 | 97.3 | **98.2** | 37.1 | 83.2 |
 | **MambaOut-based Method** | | | | | | | |
 | **Ours** | 98.7 | *89.1* | 86.1 | 50.7 | 98.4 | **98.8** | 91.3 | 61.3 | 91.7 | 96.2 | 94.5 | *59.9* | 84.7 |
+
+
+**We thank the authors of https://github.com/A-Abedi/EUDA for their codes. Also, you need to access to their codebase to obtain dinov2 @ e1277af to resimulate their method.**
