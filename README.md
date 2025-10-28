@@ -8,7 +8,7 @@
 
 **Figure 1**. Pipeline of MambaOut-DA based on standard UDA. The process begins with extracting features from both labeled source and unlabeled target domains by a pre-trained MambaOut model (frozen). Furthermore, these features pass through a bottleneck module consisting of two fully connected layers. The output from the bottleneck is used to compute the adaptation loss ($\mathcal{L}_{CMMD},\mathcal{L}_{IM},\mathcal{L}_{SSL}$) and the classification loss ($\mathcal{L}_{CE}$) on the source domain to fine-tune the bottleneck module.
 
-## Table 1: Comparison with SOTA methods on Office-31
+### Table 1: Comparison with SOTA methods on Office-31
 
 **Caption:** Comparison with SOTA methods on **Office-31**. The best performance is marked in **bold**. The methods above the horizontal line are CNN-based methods, while the methods below the horizontal line are ViT-based methods.
 
