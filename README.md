@@ -8,7 +8,7 @@
 
 **Figure 1**. Pipeline of MambaOut-DA based on standard UDA. The process begins with extracting features from both labeled source and unlabeled target domains by a pre-trained MambaOut model (frozen). Furthermore, these features pass through a bottleneck module consisting of two fully connected layers. The output from the bottleneck is used to compute the adaptation loss ($\mathcal{L}_{CMMD},\mathcal{L}_{IM},\mathcal{L}_{SSL}$) and the classification loss ($\mathcal{L}_{CE}$) on the source domain to fine-tune the bottleneck module.
 
-### Table 1: Comparison with SOTA methods on **Office-31**. The best performance is marked in **bold**. The methods above the horizontal line are CNN-based methods, while the methods below the horizontal line are ViT-based methods.
+**Table 1**: Comparison with SOTA methods on **Office-31**. The best performance is marked in **bold**. The methods above the horizontal line are CNN-based methods, while the methods below the horizontal line are ViT-based methods.
 
 | Method | A→W | D→W | W→D | A→D | D→A | W→A | Avg. |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -31,7 +31,7 @@
 | **MambaOut-based Method** | | | | | | | |
 | **Ours** | 97.2 | **100** | **100** | 96.8 | 84.1 | 85.8 | 94.0 |
 
-### Table 2: Test accuracy on the **Office-Home** dataset. The best performance is marked in **bold**. The methods above the horizontal line are CNN-based methods, while the methods below the horizontal line are ViT-based methods.
+**Table 2**: Test accuracy on the **Office-Home** dataset. The best performance is marked in **bold**. The methods above the horizontal line are CNN-based methods, while the methods below the horizontal line are ViT-based methods.
 
 | Method | Ar→Cl | Ar→Pr | Ar→Re | Cl→Ar | Cl→Pr | Cl→Re | Pr→Ar | Pr→Cl | Pr→Re | Re→Ar | Re→Cl | Re→Pr | Avg. |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -55,7 +55,7 @@
 | **MambaOut-based Method** | | | | | | | |
 | **Ours** | *77.9* | *92.3* | *92.4* | *86.0* | *91.6* | *92.1* | 84.3 | *77.3* | *92.7* | *86.3* | 78.5 | **93.7** | *87.1* |
 
-## Table 3: Comparison with SOTA methods on the **Visda-2017**. The best performance is marked in **bold**. The methods above the horizontal line are CNN-based methods, while the methods below the horizontal line are ViT-based methods.
+**Table 3**: Comparison with SOTA methods on the **Visda-2017**. The best performance is marked in **bold**. The methods above the horizontal line are CNN-based methods, while the methods below the horizontal line are ViT-based methods.
 
 | Method | plane | bcycl | bus | car | horse | knife | mcycl | person | plant | sktbrd | train | truck | Avg. |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
