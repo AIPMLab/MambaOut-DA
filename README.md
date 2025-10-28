@@ -1,6 +1,40 @@
 ## Official code base for MambaOut-DA: Reforming Unsupervised Domain Adaptation with MambaOut in an Efficient Manner.
 ### Author: Yihang Wu, Ahmad Chaddad.
 
+### Requirements
+
+We suggest you to use the following packages:
+
+numpy==1.22.0
+
+opencv-python==4.9.0.80
+
+openpyxl==3.1.2
+
+Pillow==9.3.0
+
+scikit-image==0.21.0
+
+scikit-learn==1.1.3
+
+scipy==1.10.0
+
+tqdm==4.66.1
+
+torch==1.13.1+cu117
+
+torchvision=0.14.1+cu117
+
+### Tutorials
+
+Here we provide a detailed instruction about how to run the codes. Here we use Our method as an example.
+
+1) Running.
+```sh
+ python Main-tau.py
+```
+This can be done in the terminal. Since our code requires parsers, we set all default values, so there is no need to add values in python Main-tau.py.
+
 
 <p align="center">
 <img src="image.png" alt="intro" width="70%"/>
